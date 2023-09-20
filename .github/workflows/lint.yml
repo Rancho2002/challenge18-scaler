@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
           
       - name: Lint with PYTHON_BLACK
-        uses: psf/black@v
+        uses: psf/black@main
         with:
           targets: .  # Adjust this to match your project structure
           
